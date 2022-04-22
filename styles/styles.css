@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  background-color: darkred;
+  color: white;
+  padding: 32px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+ol {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 64px;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  padding: 16px;
+}
+
+a:link {
+  color: darkred;
+}
+
+a:visited {
+  color: darkred;
+}
+
+a:hover {
+  color: red;
+}
